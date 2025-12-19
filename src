@@ -79,9 +79,7 @@ int main()
 {
     string message, keyword;
 
-    cout << "Case 3 | Vigenere Cipher Encryption and Decryption
-
-";
+    cout << "Case 3 | Vigenere Cipher Encryption and Decryption\n\n";
 
     cout << "Enter message: ";
     getline(cin, message);
@@ -93,8 +91,7 @@ int main()
 
     if (cleanKey.length() == 0)
     {
-        cout << "Invalid keyword. Keyword must contain letters.
-";
+        cout << "Invalid keyword. Keyword must contain letters.\n";
         return 0;
     }
 
